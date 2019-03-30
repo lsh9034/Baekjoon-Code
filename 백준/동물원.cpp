@@ -13,5 +13,6 @@ int main(void)
 		dp[0] = a; dp[1] = b; dp[2] = c;
 	}
 	cout << (dp[0] + dp[1] + dp[2]) % 9901;
+	while (1);
 	return 0;
 }
